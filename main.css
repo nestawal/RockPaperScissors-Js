@@ -1,0 +1,62 @@
+
+.imgView{
+    display: flex;
+}
+
+
+.head{
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    min-height: 35%;
+    position: relative;
+}
+
+.header{
+    padding: 5%;
+    color: antiquewhite;
+}
+
+.scoreSec{
+    align-items: center;
+    text-align: center;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.rockSec{
+    border-radius: 75px;
+    background-color: black;
+    
+}
+.rock{
+    height: 65px;
+}
+.paperSec{
+    border-radius: 75px;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.paper{
+    height: 65px;
+}
+.scissorSec{
+    border-radius: 150px;
+    margin-right: 20px;
+    background-color: black;
+}
+.scissor{
+    height: 65px;
+}
+
+.scoreboard{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}

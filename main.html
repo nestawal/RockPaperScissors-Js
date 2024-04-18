@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="main.css">
+      
+    </head>
+    <body>
+        <nav id="head" class="head">
+            <h1 id="header" class="header">rock paper  scissors</h1>
+        </nav>
+        <div id="imgView" class="imgView">
+            <section id="userImg" class="userImg">
+               <div id="js-moves"></div>
+            </section>
+        </div>
+        <div id="scoreSec" class="scoreSec">
+            <h1>score:<p class="score"></p></h1>
+            <p class="result"></p>
+            <p class="move"></p>
+        </div>
+        <div id="button" class="button">
+            <button  class="rockSec js-rockSec">
+                <img src="rock-emoji.png" id="rock" class="rock"/>
+                
+            </button>
+            <button  class="paperSec">
+                <img src="paper-emoji.png" id="paper" class="paper"/>
+                
+            </button>
+            <button  class="scissorSec">
+                <img src="scissor-emoji.png" id="scissor" class="scissor">
+                
+            </button>
+
+        </div>
+        <div class="scoreboard">
+            <p>Win:<div class="winScore"></div></p>
+            <p>Lose:<div class="loseScore"></div></p>
+            <p>Tie:<div class="tieScore"></div></p>
+        </div>
+        <script src="main.js"></script>        
+    </body>
+</html>
